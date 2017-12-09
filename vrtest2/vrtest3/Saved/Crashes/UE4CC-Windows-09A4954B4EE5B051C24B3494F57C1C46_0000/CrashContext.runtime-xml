@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-09A4954B4EE5B051C24B3494F57C1C46_0000</CrashGUID>
+		<ProcessId>31768</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<GameName>UE4-vrtest3</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.18.1-3754814+++UE4+Release-4.18</EngineVersion>
+		<CommandLine>&quot;D:\Work\Joey Joram Mech Game\Spaceship Game Joey Stuff\UE\vrtest2\vrtest3\vrtest3.uproject&quot;</CommandLine>
+		<LanguageLCID>1033</LanguageLCID>
+		<AppDefaultLocale>en-CA</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.18-CL-3754814</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>Joseph</UserName>
+		<BaseDir>D:/Programs/UE4 1.17.2/UE_4.18/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>D:/Programs/UE4 1.17.2/UE_4.18/</RootDir>
+		<MachineId>ACA6753649A450394D3BFEA0D7FBCFF1</MachineId>
+		<LoginId>aca6753649a450394d3bfea0d7fbcff1</LoginId>
+		<EpicAccountId>683ba1ea7e31487e9bf1350077aa6118</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<ErrorMessage>Fatal error: [File:C:\Users\dstov\Desktop\UE4.18.0.26_Release\SubstanceUE4_Plugin_4.18.0.26\Plugins\Runtime\Substance\HostProject\Plugins\Substance\Source\SubstanceCore\Private\SubstanceCoreModule.cpp] [Line: 95] Unable to load Substance Library.</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 980</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>17070178304</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>4988022784</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140735760248832</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>959856640</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>959856640</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>1053937664</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>1053966336</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636483867404240000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
