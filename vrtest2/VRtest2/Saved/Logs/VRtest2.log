@@ -1,4 +1,4 @@
-﻿Log file open, 12/09/17 00:24:35
+﻿Log file open, 12/09/17 18:39:42
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VRtest2
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-743492477) SRandInit(-743492477).
+LogInit: Display: RandInit(577241660) SRandInit(577241660).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3754814, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.589391
+LogStats: Stats thread started at 0.510172
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/ModoBridge/Binaries/Win64/UE4Editor-ModoBridge.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceCore.dll (API version 3709383).
@@ -203,644 +203,558 @@ LogInit: Base directory: D:/Programs/UE4 1.17.2/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.12.09-05.24.41:574][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.09-05.24.41:574][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.12.09-05.24.41:641][  0]LogInit: Computer: JEWBOX
-[2017.12.09-05.24.41:641][  0]LogInit: User: Joseph
-[2017.12.09-05.24.41:641][  0]LogInit: CPU Page size=4096, Cores=6
-[2017.12.09-05.24.41:641][  0]LogInit: High frequency timer resolution =3.222658 MHz
-[2017.12.09-05.24.41:641][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.12.09-05.24.41:641][  0]LogMemory: Platform Memory Stats for Windows
-[2017.12.09-05.24.41:641][  0]LogMemory: Process Physical Memory: 281.56 MB used, 281.56 MB peak
-[2017.12.09-05.24.41:641][  0]LogMemory: Process Virtual Memory: 278.84 MB used, 278.84 MB peak
-[2017.12.09-05.24.41:641][  0]LogMemory: Physical Memory: 6365.38 MB used,  9914.01 MB free, 16279.39 MB total
-[2017.12.09-05.24.41:641][  0]LogMemory: Virtual Memory: 709.77 MB used,  9914.01 MB free, 134217728.00 MB total
-[2017.12.09-05.24.43:189][  0]LogInit: Using OS detected language (en-US).
-[2017.12.09-05.24.43:190][  0]LogInit: Using OS detected locale (en-CA).
-[2017.12.09-05.24.43:474][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.12.09-05.24.44:288][  0]LogInit: Setting process to per monitor DPI aware
-[2017.12.09-05.24.49:992][  0]LogD3D11RHI: D3D11 adapters:
-[2017.12.09-05.24.50:046][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
-[2017.12.09-05.24.50:046][  0]LogD3D11RHI:       4060/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2017.12.09-05.24.50:048][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.12.09-05.24.50:048][  0]LogD3D11RHI:       0/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.12.09-05.24.50:048][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.12.09-05.24.50:057][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.12.09-05.24.50:057][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
-[2017.12.09-05.24.50:057][  0]LogWindows: EnumDisplayDevices:
-[2017.12.09-05.24.50:057][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:0 D:1)
-[2017.12.09-05.24.50:057][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:1 D:1)
-[2017.12.09-05.24.50:058][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:1)
-[2017.12.09-05.24.50:058][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2017.12.09-05.24.50:058][  0]LogWindows:    4. 'LogMeIn Mirror Driver' (P:0 D:0)
-[2017.12.09-05.24.50:058][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.12.09-05.24.50:058][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
-[2017.12.09-05.24.50:058][  0]LogD3D11RHI:   Driver Version: 388.43 (internal:23.21.13.8843, unified:388.43)
-[2017.12.09-05.24.50:058][  0]LogD3D11RHI:      Driver Date: 11-27-2017
-[2017.12.09-05.24.50:058][  0]LogRHI: Texture pool is 2842 MB (70% of 4060 MB)
-[2017.12.09-05.24.50:088][  0]LogD3D11RHI: Async texture creation enabled
-[2017.12.09-05.24.50:163][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.12.09-05.24.50:214][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Intermediate/Shaders/WorkingDirectory/11244/).
-[2017.12.09-05.24.50:214][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joseph/AppData/Local/Temp/UnrealShaderWorkingDir/74BF649F4C4BAE014B4267B72197E4DB/'.
-[2017.12.09-05.24.50:214][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.12.09-05.24.54:985][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.12.09-05.24.55:028][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.12.09-05.24.55:072][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.12.09-05.24.55:117][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.12.09-05.24.55:191][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.12.09-05.24.55:231][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.12.09-05.24.55:275][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.12.09-05.24.55:315][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.12.09-05.24.55:351][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.12.09-05.24.55:394][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.12.09-05.24.55:433][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.12.09-05.24.55:477][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.12.09-05.24.55:523][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.12.09-05.24.55:565][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.12.09-05.24.55:655][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.12.09-05.24.55:655][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.12.09-05.24.55:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.12.09-05.24.55:740][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.12.09-05.24.55:912][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.12.09-05.24.55:942][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.12.09-05.24.55:982][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.12.09-05.24.56:029][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.12.09-05.24.56:071][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.12.09-05.24.56:148][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.12.09-05.24.56:148][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.12.09-05.24.57:771][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.12.09-05.24.58:275][  0]LogDerivedDataCache: Loaded boot cache 0.50s 78MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.09-05.24.58:275][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Joseph/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2017.12.09-05.24.58:275][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.12.09-05.24.58:275][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.12.09-05.24.58:275][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.12.09-05.24.58:275][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.12.09-05.24.58:394][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.12.09-05.24.58:405][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.12.09-05.24.58:415][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.12.09-05.24.58:416][  0]LogSlate: Using Freetype 2.6.0
-[2017.12.09-05.24.58:477][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.09-05.24.58:477][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.09-05.25.05:790][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.09-05.25.07:287][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.12.09-05.25.07:367][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.12.09-05.25.07:376][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.12.09-05.25.07:401][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.12.09-05.25.07:401][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.12.09-05.25.07:401][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.12.09-05.25.07:602][  0]LogNetVersion: VRtest2 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4248922799)
-[2017.12.09-05.25.09:307][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
-[2017.12.09-05.25.16:262][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.140746 seconds
-[2017.12.09-05.25.16:267][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2017.12.09-05.25.16:267][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
-[2017.12.09-05.25.16:267][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.12.09-05.25.16:306][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.12.09-05.25.37:246][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2017.12.09-05.25.37:340][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.12.09-05.25.37:380][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.12.09-05.25.39:144][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.12.09-05.25.39:836][  0]SourceControl: Source control is disabled
-[2017.12.09-05.25.39:837][  0]SourceControl: Source control is disabled
-[2017.12.09-05.25.39:879][  0]SourceControl: Source control is disabled
-[2017.12.09-05.25.39:923][  0]SourceControl: Source control is disabled
-[2017.12.09-05.25.42:478][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.12.09-05.25.42:891][  0]LogOcInput: OculusInput pre-init called
-[2017.12.09-05.25.44:071][  0]LogEngine: Initializing Engine...
-[2017.12.09-05.25.44:073][  0]LogHMD: Oculus plugin initialized. Version: 4.18.1-3754814+++UE4+Release-4.18, OVRPlugin: 1.19.0
-[2017.12.09-05.25.44:851][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.12.09-05.25.44:851][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.12.09-05.25.45:000][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.12.09-05.25.45:020][  0]LogInit: XAudio2 using 'Headset Earphone (6- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.09-05.25.45:031][  0]LogInit: FAudioDevice initialized.
-[2017.12.09-05.25.45:132][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.09-05.25.45:152][  0]LogInit: Texture streaming: Enabled
-[2017.12.09-05.25.45:250][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.12.09-05.25.45:371][  0]LogInit: Transaction tracking system initialized
-[2017.12.09-05.25.45:735][  0]BlueprintLog: New page: Editor Load
-[2017.12.09-05.25.47:990][  0]LocalizationService: Localization service is disabled
-[2017.12.09-05.25.49:884][  0]LogConsoleResponse: Display: 
-[2017.12.09-05.25.52:153][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.12.09-05.25.52:154][  0]LogCook: Display: Mobile HDR setting 1
-[2017.12.09-05.25.52:154][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.12.09-05.25.53:112][  0]LogFileCache: Scanning file cache for directory 'D:/Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/' took 0.04s
-[2017.12.09-05.25.54:783][  0]SourceControl: Source control is disabled
-[2017.12.09-05.25.54:783][  0]Cmd: MAP LOAD FILE="../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.09-05.25.54:784][  0]LightingResults: New page: Lighting Build
-[2017.12.09-05.25.54:821][  0]MapCheck: New page: Map Check
-[2017.12.09-05.25.54:821][  0]LightingResults: New page: Lighting Build
-[2017.12.09-05.25.57:407][  0]LogLinker: Warning: Can't find file '/Game/Materials/SpaceSphere'
-[2017.12.09-05.25.57:407][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/SpaceSphere' while loading ../../../Engine/Content/EngineSky/SM_SkySphere.uasset.
-[2017.12.09-05.25.57:407][  0]LoadErrors: Error: /Engine/EngineSky/SM_SkySphere : Can't find file for asset. /Game/Materials/SpaceSphere
-[2017.12.09-05.25.57:407][  0]LogLinker: Warning: Can't find file '/Game/Materials/SpaceSphere'
-[2017.12.09-05.25.57:407][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/SpaceSphere' while loading ../../../Engine/Content/EngineSky/SM_SkySphere.uasset.
-[2017.12.09-05.25.57:407][  0]LoadErrors: Error: /Engine/EngineSky/SM_SkySphere : Can't find file for asset. /Game/Materials/SpaceSphere
-[2017.12.09-05.25.58:126][  0]LogLinker: Warning: Can't find file '/Game/Materials/SpaceSphere'
-[2017.12.09-05.25.58:126][  0]LoadErrors: Failed to load /Game/Materials/SpaceSphere.SpaceSphere Referenced by SM_SkySphere
-[2017.12.09-05.25.58:126][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/SpaceSphere' while loading NULL.
-[2017.12.09-05.25.58:126][  0]LoadErrors: Failed to load /Game/Materials/SpaceSphere.SpaceSphere Referenced by SM_SkySphere
-[2017.12.09-05.25.58:126][  0]LogLinker: Warning: Can't find file '/Game/Materials/SpaceSphere'
-[2017.12.09-05.25.58:126][  0]LoadErrors: Failed to load /Game/Materials/SpaceSphere.SpaceSphere Referenced by SM_SkySphere
-[2017.12.09-05.25.58:126][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/SpaceSphere' while loading NULL.
-[2017.12.09-05.25.58:126][  0]LoadErrors: Failed to load /Game/Materials/SpaceSphere.SpaceSphere Referenced by SM_SkySphere
-[2017.12.09-05.25.59:477][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.12.09-05.25.59:525][  0]LogMaterial: Warning: Material /Game/Materials/Default.Default needed to have new flag set bUsedWithStaticLighting !
-[2017.12.09-05.25.59:532][  0]LogMaterial: Missing cached shader map for material Default, compiling. 
-[2017.12.09-05.25.59:585][  0]MapCheck: Warning: Default Material /Game/Materials/Default.Default was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2017.12.09-05.25.59:592][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.09-05.25.59:608][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.09-05.25.59:657][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 49.32ms to complete.
-[2017.12.09-05.25.59:729][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 4.946
-[2017.12.09-05.26.00:274][  0]ModoBridge: Starting Extension logic
-[2017.12.09-05.26.00:537][  0]LogCollectionManager: Loaded 0 collections in 0.010594 seconds
-[2017.12.09-05.26.00:642][  0]LogFileCache: Scanning file cache for directory 'D:/Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Collections/' took 0.01s
-[2017.12.09-05.26.00:642][  0]LogFileCache: Scanning file cache for directory 'D:/Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/Developers/Joseph/Collections/' took 0.01s
-[2017.12.09-05.26.00:642][  0]LogFileCache: Scanning file cache for directory 'D:/Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/Collections/' took 0.01s
-[2017.12.09-05.26.00:642][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.12.09-05.26.00:652][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2378 classes and 528 folders.
-[2017.12.09-05.26.00:734][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.12.09-05.26.02:634][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.12.09-05.26.02:745][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.12.09-05.26.02:838][  0]LogSlate: Took 0.019798 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.09-05.26.02:847][  0]LogSlate: Took 0.006235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.12.09-05.26.02:878][  0]LogSlate: Took 0.015423 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.12.09-05.26.03:211][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
-[2017.12.09-05.26.03:286][  0]LogSlate: Took 0.010103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.09-05.26.03:466][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.12.09-05.26.03:466][  0]LogLoad: (Engine Initialization) Total time: 110.34 seconds
-[2017.12.09-05.26.03:466][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.12.09-05.26.03:466][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.12.09-05.26.03:811][  0]LogOcInput: OculusInput is initialized
-[2017.12.09-05.26.03:843][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.12.09-05.26.03:972][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
-[2017.12.09-05.26.04:159][  1]LogAssetRegistry: Asset discovery search completed in 54.8738 seconds
-[2017.12.09-05.26.04:161][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.12.09-05.26.04:161][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
-[2017.12.09-05.29.41:487][653]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.12.09-05.29.41:487][653]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.12.09-05.30.08:973][262]LogMaterial: Missing cached shader map for material Starmap_cube_source_Mat, compiling. 
-[2017.12.09-05.30.08:974][262]LogMaterial: Warning: /Game/Starmap_cube_source_Mat.Starmap_cube_source_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2017.12.09-05.30.08:974][262]LogMaterial: 	(Node TextureSample) Texture Sample> UV input required for cubemap sample
-[2017.12.09-05.30.09:001][262]LogMaterial: Warning: Material /Game/Starmap_cube_source_Mat.Starmap_cube_source_Mat needed to have new flag set bUsedWithStaticLighting !
-[2017.12.09-05.30.09:006][262]LogMaterial: Missing cached shader map for material Starmap_cube_source_Mat, compiling. 
-[2017.12.09-05.30.09:007][262]LogMaterial: Warning: /Game/Starmap_cube_source_Mat.Starmap_cube_source_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2017.12.09-05.30.09:007][262]LogMaterial: 	(Node TextureSample) Texture Sample> UV input required for cubemap sample
-[2017.12.09-05.30.10:380][319]Cmd: TRANSACTION UNDO
-[2017.12.09-05.30.10:380][319]LogEditorTransaction: Undo Create Actors
-[2017.12.09-05.30.10:433][319]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.09-05.30.13:348][417]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.09-05.30.13:719][417]LogSavePackage: Save=155.11ms
-[2017.12.09-05.30.13:719][417]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/FirstPersonExampleMapE3EB39F649E8780F2CE672A1009E02D7.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2017.12.09-05.30.13:725][417]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2017.12.09-05.30.14:383][417]LogSavePackage: Save=425.50ms
-[2017.12.09-05.30.14:384][417]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/FirstPersonExampleMap_BuiltData6781FC8E4D23111049CC06B9338AB290.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2017.12.09-05.30.14:385][417]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2017.12.09-05.40.15:077][402]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.014
-[2017.12.09-05.50.15:424][203]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.014
-[2017.12.09-06.00.16:103][  5]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.013
-[2017.12.09-06.07.40:058][640]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
-[2017.12.09-06.07.51:211][735]ModoBridge: Creating scene in Unreal, handling 10 nodes.
-[2017.12.09-06.07.51:250][735]LogStaticMesh: Building static mesh test_Ship_2_mesh002...
-[2017.12.09-06.07.51:256][735]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/test_Ship_2_mesh002.test_Ship_2_mesh002
-[2017.12.09-06.07.51:264][735]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.07.51:298][735]LogStaticMesh: Building static mesh test_Ship_2_mesh203...
-[2017.12.09-06.07.51:326][735]LogStaticMesh: Built static mesh [0.03s] /Game/Meshes/test_Ship_2_mesh203.test_Ship_2_mesh203
-[2017.12.09-06.07.51:331][735]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.07.51:397][735]LogStaticMesh: Building static mesh test_Ship_2_mesh025...
-[2017.12.09-06.07.51:869][735]LogStaticMesh: Built static mesh [0.47s] /Game/Meshes/test_Ship_2_mesh025.test_Ship_2_mesh025
-[2017.12.09-06.07.51:913][735]LogStaticMesh: Warning: test_Ship_2_mesh025 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.12.09-06.07.51:913][735]LogStaticMesh: Warning: test_Ship_2_mesh025 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2017.12.09-06.07.51:914][735]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.07.51:946][735]LogStaticMesh: Building static mesh test_Ship_2_mesh218...
-[2017.12.09-06.07.51:954][735]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/test_Ship_2_mesh218.test_Ship_2_mesh218
-[2017.12.09-06.07.51:959][735]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.07.51:991][735]LogStaticMesh: Building static mesh test_Ship_2_mesh024...
-[2017.12.09-06.07.51:996][735]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/test_Ship_2_mesh024.test_Ship_2_mesh024
-[2017.12.09-06.07.52:001][735]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.07.52:033][735]LogStaticMesh: Building static mesh test_Ship_2_mesh060...
-[2017.12.09-06.07.52:043][735]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/test_Ship_2_mesh060.test_Ship_2_mesh060
-[2017.12.09-06.07.52:048][735]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.07.52:081][735]LogStaticMesh: Building static mesh test_Ship_2_mesh022...
-[2017.12.09-06.07.52:088][735]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/test_Ship_2_mesh022.test_Ship_2_mesh022
-[2017.12.09-06.07.52:092][735]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.07.52:121][735]LogStaticMesh: Building static mesh test_Ship_2_mesh023...
-[2017.12.09-06.07.52:129][735]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/test_Ship_2_mesh023.test_Ship_2_mesh023
-[2017.12.09-06.07.52:133][735]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.07.52:164][735]LogStaticMesh: Building static mesh test_Ship_2_mesh026...
-[2017.12.09-06.07.52:181][735]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/test_Ship_2_mesh026.test_Ship_2_mesh026
-[2017.12.09-06.07.52:186][735]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.07.52:219][735]LogStaticMesh: Building static mesh test_Ship_2_mesh062...
-[2017.12.09-06.07.52:248][735]LogStaticMesh: Built static mesh [0.03s] /Game/Meshes/test_Ship_2_mesh062.test_Ship_2_mesh062
-[2017.12.09-06.07.52:251][735]LogStaticMesh: Warning: test_Ship_2_mesh062 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.12.09-06.07.52:251][735]LogStaticMesh: Warning: test_Ship_2_mesh062 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2017.12.09-06.07.52:253][735]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.07.52:253][735]ModoBridge: Scene Instantiated, there were 10 root nodes/scenegraphs.
-[2017.12.09-06.08.14:559][610]LogSavePackage: Save=142.43ms
-[2017.12.09-06.08.14:559][610]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/FirstPersonExampleMap64AD920E4E5C0098D531E09DF88B66FB.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2017.12.09-06.08.14:561][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2017.12.09-06.08.14:872][610]LogSavePackage: Save=272.83ms
-[2017.12.09-06.08.14:872][610]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/FirstPersonExampleMap_BuiltDataACBB318C471C6AC3FDCCD79497210E20.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2017.12.09-06.08.14:873][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2017.12.09-06.09.04:487][ 99]MapCheck: New page: Map Check
-[2017.12.09-06.09.04:538][ 99]Cmd: MAP REBUILD ALLVISIBLE
-[2017.12.09-06.09.04:538][ 99]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.12.09-06.09.04:620][ 99]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.12.09-06.09.04:628][ 99]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
-[2017.12.09-06.09.04:636][ 99]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Base_Material, compiling. 
-[2017.12.09-06.09.04:641][ 99]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Starscape, compiling. 
-[2017.12.09-06.09.04:648][ 99]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2017.12.09-06.09.04:655][ 99]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FPGun, compiling. 
-[2017.12.09-06.09.04:667][ 99]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
-[2017.12.09-06.09.05:355][ 99]TextureStreamingBuild: Display: Compiling optional shaders took 0.746 seconds.
-[2017.12.09-06.09.05:360][ 99]LogLevel: Display: Export Material TexCoord Scales took 0.006 seconds.
-[2017.12.09-06.09.05:369][ 99]TextureStreamingBuild: Display: Build Texture Streaming took 0.008 seconds.
-[2017.12.09-06.09.05:383][ 99]LightingResults: New page: Lighting Build - Dec 8, 2017, 8:09:05 PM
-[2017.12.09-06.09.05:527][ 99]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.12.09-06.09.05:684][ 99]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.12.09-06.09.05:701][ 99]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.12.09-06.09.06:737][ 99]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.12.09-06.09.06:738][ 99]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11244
-[2017.12.09-06.09.09:912][ 99]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.12.09-06.09.09:912][ 99]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.12.09-06.09.09:913][ 99]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.12.09-06.09.09:913][ 99]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.12.09-06.09.09:913][ 99]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.12.09-06.09.10:310][ 99]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.12.09-06.09.10:310][ 99]MapCheck: New page: FirstPersonExampleMap - Dec 8, 2017, 8:09:10 PM
-[2017.12.09-06.09.10:311][ 99]MapCheck: Warning: Actor_1 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
-[2017.12.09-06.09.10:312][ 99]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
-[2017.12.09-06.09.10:376][ 99]MapCheck: Map check complete: 1 Error(s), 1 Warning(s), took 65.258ms to complete.
-[2017.12.09-06.09.10:398][ 99]LogEditorBuildUtils: Build time 0:05
-[2017.12.09-06.09.10:595][100]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Base_Material, compiling. 
-[2017.12.09-06.09.10:603][100]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Base_Material, compiling. 
-[2017.12.09-06.09.13:660][156]LightingResults: Warning: test_Ship_2_mesh218 Object has overlapping UVs.
-[2017.12.09-06.09.13:660][156]LightingResults: test_Ship_2_mesh218 Lightmap UV are overlapping by 4.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.12.09-06.09.13:775][158]LightingResults: Warning: test_Ship_2_mesh218 Object has overlapping UVs.
-[2017.12.09-06.09.13:775][158]LightingResults: test_Ship_2_mesh218 Lightmap UV are overlapping by 4.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.12.09-06.09.14:015][163]LightingResults: Warning: test_Ship_2_mesh025 Object has overlapping UVs.
-[2017.12.09-06.09.14:015][163]LightingResults: test_Ship_2_mesh025 Lightmap UV are overlapping by 71.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.12.09-06.09.14:015][163]LightingResults: Warning: test_Ship_2_mesh025 Object has overlapping UVs.
-[2017.12.09-06.09.14:015][163]LightingResults: test_Ship_2_mesh025 Lightmap UV are overlapping by 71.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.12.09-06.09.14:696][181]Job is a success!
-[2017.12.09-06.09.14:876][182]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
-[2017.12.09-06.09.14:876][182]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2017.12.09-06.09.14:876][182]LogVolumetricLightmapImport:      BrickData 155x5x5 = 0.1Mb
-[2017.12.09-06.09.14:876][182]LogVolumetricLightmapImport:      Bricks at Level
-[2017.12.09-06.09.14:876][182]LogVolumetricLightmapImport:          0: 3.2% covering 100.0% of volume
-[2017.12.09-06.09.14:876][182]LogVolumetricLightmapImport:          1: 12.9% covering 6.3% of volume
-[2017.12.09-06.09.14:876][182]LogVolumetricLightmapImport:          2: 83.9% covering 0.6% of volume
-[2017.12.09-06.09.15:097][182]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
-[2017.12.09-06.09.15:097][182]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
-[2017.12.09-06.09.15:097][182]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
-[2017.12.09-06.09.15:097][182]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
-[2017.12.09-06.09.15:097][182]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2017.12.09-06.09.15:097][182]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2017.12.09-06.09.15:097][182]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
-[2017.12.09-06.09.15:115][182]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X128)
-[2017.12.09-06.09.15:207][182]Lightmass on JEWBOX: 3.03 sec total, 167 ms importing, 47 ms setup, 793 ms photons, 1.62 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 17.4 sec total, 6.60 sec processing.
-[2017.12.09-06.09.15:293][182]LogStaticLightingSystem: Illumination: 9.81 sec (146 ms encoding lightmaps, 35 ms encoding shadowmaps)
-[2017.12.09-06.09.15:293][182]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2017.12.09-06.09.15:293][182]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.12.09-06.09.15:927][182]DumpUnbuiltLightIteractions
-[2017.12.09-06.09.15:927][182]Lights with unbuilt interactions: 0
-[2017.12.09-06.09.15:927][182]
-[2017.12.09-06.09.15:928][182]Primitives with unbuilt interactions: 0
-[2017.12.09-06.09.15:941][183]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.12.09-06.09.15:941][183]MapCheck: New page: FirstPersonExampleMap - Dec 8, 2017, 8:09:15 PM
-[2017.12.09-06.09.15:941][183]MapCheck: Warning: Actor_1 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
-[2017.12.09-06.09.16:002][183]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 60.829ms to complete.
-[2017.12.09-06.12.03:667][831]ModoBridge: Creating scene in Unreal, handling 10 nodes.
-[2017.12.09-06.12.03:702][831]LogStaticMesh: Building static mesh test_Ship_2_mesh062...
-[2017.12.09-06.12.03:724][831]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/test_Ship_2_mesh062.test_Ship_2_mesh062
-[2017.12.09-06.12.03:727][831]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.12.03:755][831]LogStaticMesh: Building static mesh test_Ship_2_mesh026...
-[2017.12.09-06.12.03:765][831]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/test_Ship_2_mesh026.test_Ship_2_mesh026
-[2017.12.09-06.12.03:770][831]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.12.03:800][831]LogStaticMesh: Building static mesh test_Ship_2_mesh023...
-[2017.12.09-06.12.03:807][831]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/test_Ship_2_mesh023.test_Ship_2_mesh023
-[2017.12.09-06.12.03:811][831]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.12.03:842][831]LogStaticMesh: Building static mesh test_Ship_2_mesh203...
-[2017.12.09-06.12.03:870][831]LogStaticMesh: Built static mesh [0.03s] /Game/Meshes/test_Ship_2_mesh203.test_Ship_2_mesh203
-[2017.12.09-06.12.03:875][831]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.12.03:913][831]LogStaticMesh: Building static mesh test_Ship_2_mesh025...
-[2017.12.09-06.12.04:256][831]LogStaticMesh: Built static mesh [0.34s] /Game/Meshes/test_Ship_2_mesh025.test_Ship_2_mesh025
-[2017.12.09-06.12.04:297][831]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.12.04:324][831]LogStaticMesh: Building static mesh test_Ship_2_mesh218...
-[2017.12.09-06.12.04:340][831]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/test_Ship_2_mesh218.test_Ship_2_mesh218
-[2017.12.09-06.12.04:343][831]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.12.04:373][831]LogStaticMesh: Building static mesh test_Ship_2_mesh024...
-[2017.12.09-06.12.04:378][831]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/test_Ship_2_mesh024.test_Ship_2_mesh024
-[2017.12.09-06.12.04:380][831]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.12.04:410][831]LogStaticMesh: Building static mesh test_Ship_2_mesh060...
-[2017.12.09-06.12.04:419][831]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/test_Ship_2_mesh060.test_Ship_2_mesh060
-[2017.12.09-06.12.04:423][831]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.12.04:451][831]LogStaticMesh: Building static mesh test_Ship_2_mesh022...
-[2017.12.09-06.12.04:458][831]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/test_Ship_2_mesh022.test_Ship_2_mesh022
-[2017.12.09-06.12.04:461][831]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.12.04:491][831]LogStaticMesh: Building static mesh test_Ship_2_mesh002...
-[2017.12.09-06.12.04:496][831]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/test_Ship_2_mesh002.test_Ship_2_mesh002
-[2017.12.09-06.12.04:498][831]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.12.04:499][831]ModoBridge: Scene Instantiated, there were 10 root nodes/scenegraphs.
-[2017.12.09-06.12.08:060][148]MapCheck: New page: Map Check
-[2017.12.09-06.12.08:112][148]Cmd: MAP REBUILD ALLVISIBLE
-[2017.12.09-06.12.08:112][148]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.12.09-06.12.08:147][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.12.09-06.12.08:153][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
-[2017.12.09-06.12.08:161][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Base_Material, compiling. 
-[2017.12.09-06.12.08:166][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Starscape, compiling. 
-[2017.12.09-06.12.08:173][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FPGun, compiling. 
-[2017.12.09-06.12.08:183][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
-[2017.12.09-06.12.08:194][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2017.12.09-06.12.08:832][148]TextureStreamingBuild: Display: Compiling optional shaders took 0.690 seconds.
-[2017.12.09-06.12.08:835][148]LogLevel: Display: Export Material TexCoord Scales took 0.004 seconds.
-[2017.12.09-06.12.08:843][148]TextureStreamingBuild: Display: Build Texture Streaming took 0.008 seconds.
-[2017.12.09-06.12.08:857][148]LightingResults: New page: Lighting Build - Dec 8, 2017, 8:12:08 PM
-[2017.12.09-06.12.08:863][148]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.12.09-06.12.08:870][148]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.12.09-06.12.08:870][148]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.12.09-06.12.08:871][148]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.12.09-06.12.08:871][148]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11244
-[2017.12.09-06.12.13:388][148]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.12.09-06.12.13:388][148]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.12.09-06.12.13:388][148]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.12.09-06.12.13:388][148]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.12.09-06.12.13:388][148]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.12.09-06.12.13:706][148]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.12.09-06.12.13:706][148]MapCheck: New page: FirstPersonExampleMap - Dec 8, 2017, 8:12:13 PM
-[2017.12.09-06.12.13:706][148]MapCheck: Warning: Actor_1 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
-[2017.12.09-06.12.13:706][148]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
-[2017.12.09-06.12.13:755][148]MapCheck: Map check complete: 1 Error(s), 1 Warning(s), took 48.693ms to complete.
-[2017.12.09-06.12.13:777][148]LogEditorBuildUtils: Build time 0:05
-[2017.12.09-06.12.16:127][201]LightingResults: Warning: test_Ship_2_mesh025 Object has overlapping UVs.
-[2017.12.09-06.12.16:127][201]LightingResults: test_Ship_2_mesh025 Lightmap UV are overlapping by 9.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.12.09-06.12.16:127][201]LightingResults: Warning: test_Ship_2_mesh025 Object has overlapping UVs.
-[2017.12.09-06.12.16:127][201]LightingResults: test_Ship_2_mesh025 Lightmap UV are overlapping by 9.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.12.09-06.12.16:629][217]Job is a success!
-[2017.12.09-06.12.16:792][218]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
-[2017.12.09-06.12.16:792][218]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2017.12.09-06.12.16:792][218]LogVolumetricLightmapImport:      BrickData 160x5x5 = 0.1Mb
-[2017.12.09-06.12.16:792][218]LogVolumetricLightmapImport:      Bricks at Level
-[2017.12.09-06.12.16:792][218]LogVolumetricLightmapImport:          0: 3.1% covering 100.0% of volume
-[2017.12.09-06.12.16:792][218]LogVolumetricLightmapImport:          1: 12.5% covering 6.3% of volume
-[2017.12.09-06.12.16:792][218]LogVolumetricLightmapImport:          2: 84.4% covering 0.7% of volume
-[2017.12.09-06.12.17:011][218]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
-[2017.12.09-06.12.17:011][218]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
-[2017.12.09-06.12.17:011][218]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
-[2017.12.09-06.12.17:011][218]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2017.12.09-06.12.17:011][218]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2017.12.09-06.12.17:011][218]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
-[2017.12.09-06.12.17:011][218]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
-[2017.12.09-06.12.17:015][218]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X128)
-[2017.12.09-06.12.17:107][218]Lightmass on JEWBOX: 2.65 sec total, 154 ms importing, 44 ms setup, 841 ms photons, 1.58 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 16.9 sec total, 6.45 sec processing.
-[2017.12.09-06.12.17:178][218]LogStaticLightingSystem: Illumination: 8.25 sec (149 ms encoding lightmaps, 54 ms encoding shadowmaps)
-[2017.12.09-06.12.17:178][218]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2017.12.09-06.12.17:178][218]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.12.09-06.12.17:405][218]DumpUnbuiltLightIteractions
-[2017.12.09-06.12.17:405][218]Lights with unbuilt interactions: 0
-[2017.12.09-06.12.17:405][218]
-[2017.12.09-06.12.17:405][218]Primitives with unbuilt interactions: 0
-[2017.12.09-06.12.17:415][219]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.12.09-06.12.17:416][219]MapCheck: New page: FirstPersonExampleMap - Dec 8, 2017, 8:12:17 PM
-[2017.12.09-06.12.17:416][219]MapCheck: Warning: Actor_1 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
-[2017.12.09-06.12.17:473][219]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 57.508ms to complete.
-[2017.12.09-06.12.27:700][634]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.09-06.12.28:309][634]LogRenderer: Reallocating scene render targets to support 1432x964 Format 10 NumSamples 1 (Frame:1).
-[2017.12.09-06.12.46:918][133]ModoBridge: Creating scene in Unreal, handling 1 nodes.
-[2017.12.09-06.12.46:952][133]LogStaticMesh: Building static mesh test_Ship_2_mesh001...
-[2017.12.09-06.12.46:953][133]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/test_Ship_2_mesh001.test_Ship_2_mesh001
-[2017.12.09-06.12.46:956][133]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.12.46:957][133]ModoBridge: Scene Instantiated, there were 1 root nodes/scenegraphs.
-[2017.12.09-06.12.53:990][792]Cmd: TRANSACTION UNDO
-[2017.12.09-06.12.53:990][792]LogEditorTransaction: Undo Create Actors
-[2017.12.09-06.14.28:181][169]ModoBridge: Creating scene in Unreal, handling 1 nodes.
-[2017.12.09-06.14.28:224][169]LogStaticMesh: Building static mesh test_Ship_2_mesh025...
-[2017.12.09-06.14.28:546][169]LogStaticMesh: Built static mesh [0.32s] /Game/Meshes/test_Ship_2_mesh025.test_Ship_2_mesh025
-[2017.12.09-06.14.28:584][169]LogUObjectGlobals: Warning: Failed to find object 'Material None.Default'
-[2017.12.09-06.14.28:584][169]ModoBridge: Scene Instantiated, there were 1 root nodes/scenegraphs.
-[2017.12.09-06.14.29:793][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mesh)
-[2017.12.09-06.14.30:598][361]Cmd: DELETE
-[2017.12.09-06.14.30:598][361]Cmd: ACTOR DELETE
-[2017.12.09-06.14.30:601][361]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.12.09-06.14.30:613][361]LogEditorActor: Deleted 1 Actors (0.015 secs)
-[2017.12.09-06.14.33:108][616]MapCheck: New page: Map Check
-[2017.12.09-06.14.33:157][616]Cmd: MAP REBUILD ALLVISIBLE
-[2017.12.09-06.14.33:157][616]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.12.09-06.14.33:191][616]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.12.09-06.14.33:197][616]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
-[2017.12.09-06.14.33:204][616]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Base_Material, compiling. 
-[2017.12.09-06.14.33:209][616]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Starscape, compiling. 
-[2017.12.09-06.14.33:216][616]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2017.12.09-06.14.33:223][616]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
-[2017.12.09-06.14.33:234][616]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FPGun, compiling. 
-[2017.12.09-06.14.33:896][616]TextureStreamingBuild: Display: Compiling optional shaders took 0.710 seconds.
-[2017.12.09-06.14.33:901][616]LogLevel: Display: Export Material TexCoord Scales took 0.004 seconds.
-[2017.12.09-06.14.33:908][616]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
-[2017.12.09-06.14.33:922][616]LightingResults: New page: Lighting Build - Dec 8, 2017, 8:14:33 PM
-[2017.12.09-06.14.33:928][616]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.12.09-06.14.33:934][616]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.12.09-06.14.33:934][616]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.12.09-06.14.33:935][616]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.12.09-06.14.33:935][616]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11244
-[2017.12.09-06.14.38:447][616]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.12.09-06.14.38:447][616]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.12.09-06.14.38:447][616]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.12.09-06.14.38:447][616]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.12.09-06.14.38:447][616]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.12.09-06.14.38:706][616]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.12.09-06.14.38:706][616]MapCheck: New page: FirstPersonExampleMap - Dec 8, 2017, 8:14:38 PM
-[2017.12.09-06.14.38:721][616]MapCheck: Warning: Actor_1 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
-[2017.12.09-06.14.38:722][616]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
-[2017.12.09-06.14.38:771][616]MapCheck: Map check complete: 1 Error(s), 1 Warning(s), took 64.565ms to complete.
-[2017.12.09-06.14.38:794][616]LogEditorBuildUtils: Build time 0:05
-[2017.12.09-06.14.41:088][664]LightingResults: Warning: test_Ship_2_mesh025 Object has overlapping UVs.
-[2017.12.09-06.14.41:088][664]LightingResults: test_Ship_2_mesh025 Lightmap UV are overlapping by 11.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.12.09-06.14.41:172][665]LightingResults: Warning: test_Ship_2_mesh025 Object has overlapping UVs.
-[2017.12.09-06.14.41:172][665]LightingResults: test_Ship_2_mesh025 Lightmap UV are overlapping by 11.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.12.09-06.14.41:697][676]Job is a success!
-[2017.12.09-06.14.41:940][677]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
-[2017.12.09-06.14.41:941][677]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2017.12.09-06.14.41:941][677]LogVolumetricLightmapImport:      BrickData 160x5x5 = 0.1Mb
-[2017.12.09-06.14.41:941][677]LogVolumetricLightmapImport:      Bricks at Level
-[2017.12.09-06.14.41:941][677]LogVolumetricLightmapImport:          0: 3.1% covering 100.0% of volume
-[2017.12.09-06.14.41:941][677]LogVolumetricLightmapImport:          1: 12.5% covering 6.3% of volume
-[2017.12.09-06.14.41:941][677]LogVolumetricLightmapImport:          2: 84.4% covering 0.7% of volume
-[2017.12.09-06.14.42:181][677]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
-[2017.12.09-06.14.42:181][677]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
-[2017.12.09-06.14.42:181][677]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
-[2017.12.09-06.14.42:181][677]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
-[2017.12.09-06.14.42:181][677]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2017.12.09-06.14.42:181][677]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2017.12.09-06.14.42:189][677]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
-[2017.12.09-06.14.42:220][677]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X128)
-[2017.12.09-06.14.42:273][677]Lightmass on JEWBOX: 2.76 sec total, 148 ms importing, 42 ms setup, 839 ms photons, 1.69 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 18.2 sec total, 6.36 sec processing.
-[2017.12.09-06.14.42:369][677]LogStaticLightingSystem: Illumination: 8.31 sec (140 ms encoding lightmaps, 40 ms encoding shadowmaps)
-[2017.12.09-06.14.42:369][677]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2017.12.09-06.14.42:369][677]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.12.09-06.14.42:460][677]DumpUnbuiltLightIteractions
-[2017.12.09-06.14.42:460][677]Lights with unbuilt interactions: 0
-[2017.12.09-06.14.42:460][677]
-[2017.12.09-06.14.42:460][677]Primitives with unbuilt interactions: 0
-[2017.12.09-06.14.42:470][678]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.12.09-06.14.42:470][678]MapCheck: New page: FirstPersonExampleMap - Dec 8, 2017, 8:14:42 PM
-[2017.12.09-06.14.42:470][678]MapCheck: Warning: Actor_1 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
-[2017.12.09-06.14.42:517][678]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 47.326ms to complete.
-[2017.12.09-06.14.50:498][196]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
-[2017.12.09-06.15.00:434][114]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.09-06.15.00:435][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.09-06.15.00:435][114]LogHMD: Initializing OVRPlugin session
-[2017.12.09-06.15.00:778][114]PIE: New page: PIE session: FirstPersonExampleMap (Dec 8, 2017, 8:15:00 PM)
-[2017.12.09-06.15.00:778][114]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2017.12.09-06.15.00:799][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020535s)
-[2017.12.09-06.15.00:800][114]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.12.09-06.15.00:800][114]LogPlayLevel: PIE: World Init took: (0.001165s)
-[2017.12.09-06.15.00:800][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022098s)
-[2017.12.09-06.15.00:860][114]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.09-06.15.00:872][114]LogInit: FAudioDevice initialized.
-[2017.12.09-06.15.01:028][114]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2017.12.09-06.15.01:067][114]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.09-06.15.01:071][114]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.12.09-01.15.01
-[2017.12.09-06.15.01:071][114]LogWorld: Bringing up level for play took: 0.001879
-[2017.12.09-06.15.01:101][114]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2017.12.09-06.15.01:107][114]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.173
-[2017.12.09-06.15.01:107][114]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.09-06.15.01:110][114]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2017.12.09-06.15.01:110][114]LogHMD: Allocating Oculus 1432 x 964 depth rendertarget swapchain
-[2017.12.09-06.15.01:169][114]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 10 NumSamples 1 (Frame:1).
-[2017.12.09-06.15.01:169][114]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2017.12.09-06.16.03:762][350]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=192.582 Y=-833.100 Z=4.228] for [FirstPersonProjectile_C]
-[2017.12.09-06.16.54:930][765]Set new viewmode: Wireframe
-[2017.12.09-06.16.57:220][818]Set new viewmode: Wireframe
-[2017.12.09-06.16.57:597][827]Set new viewmode: Unlit
-[2017.12.09-06.16.58:375][847]Set new viewmode: Lit
-[2017.12.09-06.16.59:640][875]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.09-06.16.59:808][875]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.09-06.18.49:911][154]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.09-06.18.49:911][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.09-06.18.49:911][154]LogHMD: Initializing OVRPlugin session
-[2017.12.09-06.18.49:936][154]PIE: New page: PIE session: FirstPersonExampleMap (Dec 8, 2017, 8:18:49 PM)
-[2017.12.09-06.18.49:936][154]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2017.12.09-06.18.49:958][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021196s)
-[2017.12.09-06.18.49:958][154]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.12.09-06.18.49:959][154]LogPlayLevel: PIE: World Init took: (0.001119s)
-[2017.12.09-06.18.49:959][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022692s)
-[2017.12.09-06.18.49:987][154]LogInit: XAudio2 using 'Headset Earphone (6- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.09-06.18.49:994][154]LogInit: FAudioDevice initialized.
-[2017.12.09-06.18.50:026][154]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.09-06.18.50:028][154]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.12.09-01.18.50
-[2017.12.09-06.18.50:028][154]LogWorld: Bringing up level for play took: 0.001866
-[2017.12.09-06.18.50:029][154]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.749
-[2017.12.09-06.18.50:029][154]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.09-06.19.31:879][162]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.09-06.19.31:921][162]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.09-06.19.40:726][169]LogSavePackage: Save=167.37ms
-[2017.12.09-06.19.40:726][169]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/FirstPersonExampleMap82F39FED48F576639F88799DB53CE33D.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2017.12.09-06.19.40:728][169]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2017.12.09-06.19.40:830][169]LogSavePackage: Save=65.67ms
-[2017.12.09-06.19.40:830][169]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/FirstPersonExampleMap_BuiltData48FB40924F3D6B11EB5FDCB546FC3EB8.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2017.12.09-06.19.40:833][169]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2017.12.09-06.29.40:311][150]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.010
-[2017.12.09-06.29.40:329][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/test_Ship_2_mesh002] ([1] browsable assets)...
-[2017.12.09-06.29.40:370][150]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/test_Ship_2_mesh002.test_Ship_2_mesh002]
-[2017.12.09-06.29.40:370][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/test_Ship_2_mesh002]
-[2017.12.09-06.29.40:406][150]LogSavePackage: Save=28.44ms
-[2017.12.09-06.29.40:406][150]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/test_Ship_2_mesh002_Auto14A9DE2B8481A19A5C526C797DC50F5F2.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh002_Auto1.uasset'
-[2017.12.09-06.29.40:424][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh002_Auto1.uasset
-[2017.12.09-06.29.40:425][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/test_Ship_2_mesh022] ([1] browsable assets)...
-[2017.12.09-06.29.40:436][150]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/test_Ship_2_mesh022.test_Ship_2_mesh022]
-[2017.12.09-06.29.40:436][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/test_Ship_2_mesh022]
-[2017.12.09-06.29.40:456][150]LogSavePackage: Save=13.47ms
-[2017.12.09-06.29.40:456][150]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/test_Ship_2_mesh022_Auto17ED5BAFB4B8FFB88DA6B22AE30812061.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh022_Auto1.uasset'
-[2017.12.09-06.29.40:457][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh022_Auto1.uasset
-[2017.12.09-06.29.40:457][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/test_Ship_2_mesh023] ([1] browsable assets)...
-[2017.12.09-06.29.40:469][150]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/test_Ship_2_mesh023.test_Ship_2_mesh023]
-[2017.12.09-06.29.40:469][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/test_Ship_2_mesh023]
-[2017.12.09-06.29.40:488][150]LogSavePackage: Save=12.05ms
-[2017.12.09-06.29.40:488][150]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/test_Ship_2_mesh023_Auto1688661A94E44EDF130217EB9AE5A6008.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh023_Auto1.uasset'
-[2017.12.09-06.29.40:489][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh023_Auto1.uasset
-[2017.12.09-06.29.40:489][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/test_Ship_2_mesh024] ([1] browsable assets)...
-[2017.12.09-06.29.40:501][150]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/test_Ship_2_mesh024.test_Ship_2_mesh024]
-[2017.12.09-06.29.40:501][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/test_Ship_2_mesh024]
-[2017.12.09-06.29.40:521][150]LogSavePackage: Save=13.18ms
-[2017.12.09-06.29.40:521][150]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/test_Ship_2_mesh024_Auto1310AD3394928B675F925FD87C59EBF98.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh024_Auto1.uasset'
-[2017.12.09-06.29.40:522][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh024_Auto1.uasset
-[2017.12.09-06.29.40:522][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/test_Ship_2_mesh025] ([1] browsable assets)...
-[2017.12.09-06.29.40:550][150]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/test_Ship_2_mesh025.test_Ship_2_mesh025]
-[2017.12.09-06.29.40:550][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/test_Ship_2_mesh025]
-[2017.12.09-06.29.40:572][150]LogSavePackage: Save=14.00ms
-[2017.12.09-06.29.40:572][150]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/test_Ship_2_mesh025_Auto1B5E09F1241E3E8EE3C15B289E23231A3.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh025_Auto1.uasset'
-[2017.12.09-06.29.40:572][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh025_Auto1.uasset
-[2017.12.09-06.29.40:573][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/test_Ship_2_mesh026] ([1] browsable assets)...
-[2017.12.09-06.29.40:584][150]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/test_Ship_2_mesh026.test_Ship_2_mesh026]
-[2017.12.09-06.29.40:584][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/test_Ship_2_mesh026]
-[2017.12.09-06.29.40:603][150]LogSavePackage: Save=12.81ms
-[2017.12.09-06.29.40:604][150]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/test_Ship_2_mesh026_Auto19B93FBE746C85E4DF005C19BA661D56B.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh026_Auto1.uasset'
-[2017.12.09-06.29.40:604][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh026_Auto1.uasset
-[2017.12.09-06.29.40:605][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/test_Ship_2_mesh060] ([1] browsable assets)...
-[2017.12.09-06.29.40:616][150]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/test_Ship_2_mesh060.test_Ship_2_mesh060]
-[2017.12.09-06.29.40:616][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/test_Ship_2_mesh060]
-[2017.12.09-06.29.40:653][150]LogSavePackage: Save=29.79ms
-[2017.12.09-06.29.40:653][150]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/test_Ship_2_mesh060_Auto1CD57BACB4DCCCC245F340891A9EE676C.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh060_Auto1.uasset'
-[2017.12.09-06.29.40:653][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh060_Auto1.uasset
-[2017.12.09-06.29.40:654][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/test_Ship_2_mesh062] ([1] browsable assets)...
-[2017.12.09-06.29.40:666][150]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/test_Ship_2_mesh062.test_Ship_2_mesh062]
-[2017.12.09-06.29.40:666][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/test_Ship_2_mesh062]
-[2017.12.09-06.29.40:686][150]LogSavePackage: Save=12.91ms
-[2017.12.09-06.29.40:686][150]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/test_Ship_2_mesh062_Auto1A89D0014411D49583EE3F0B2472D4118.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh062_Auto1.uasset'
-[2017.12.09-06.29.40:687][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh062_Auto1.uasset
-[2017.12.09-06.29.40:688][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/test_Ship_2_mesh203] ([1] browsable assets)...
-[2017.12.09-06.29.40:700][150]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/test_Ship_2_mesh203.test_Ship_2_mesh203]
-[2017.12.09-06.29.40:700][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/test_Ship_2_mesh203]
-[2017.12.09-06.29.40:720][150]LogSavePackage: Save=13.22ms
-[2017.12.09-06.29.40:722][150]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/test_Ship_2_mesh203_Auto11D92C8D047F23D6930B2C1B118FB855D.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh203_Auto1.uasset'
-[2017.12.09-06.29.40:737][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh203_Auto1.uasset
-[2017.12.09-06.29.40:737][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/test_Ship_2_mesh218] ([1] browsable assets)...
-[2017.12.09-06.29.40:756][150]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/test_Ship_2_mesh218.test_Ship_2_mesh218]
-[2017.12.09-06.29.40:756][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/test_Ship_2_mesh218]
-[2017.12.09-06.29.40:779][150]LogSavePackage: Save=15.60ms
-[2017.12.09-06.29.40:780][150]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/test_Ship_2_mesh218_Auto1B1CD260A47D98B0BA5033AADA9BB1ACB.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh218_Auto1.uasset'
-[2017.12.09-06.29.40:780][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh218_Auto1.uasset
-[2017.12.09-06.29.40:781][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/test_Ship_2_mesh001] ([1] browsable assets)...
-[2017.12.09-06.29.40:792][150]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/test_Ship_2_mesh001.test_Ship_2_mesh001]
-[2017.12.09-06.29.40:793][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/test_Ship_2_mesh001]
-[2017.12.09-06.29.40:806][150]LogSavePackage: Save=11.98ms
-[2017.12.09-06.29.40:806][150]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/test_Ship_2_mesh001_Auto1B572D3C54F06855227EC449888D314CC.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh001_Auto1.uasset'
-[2017.12.09-06.29.40:807][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Autosaves/Game/Meshes/test_Ship_2_mesh001_Auto1.uasset
-[2017.12.09-06.29.40:807][150]LogFileHelpers: Auto-saving content packages took 0.478
-[2017.12.09-16.23.13:248][136]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.09-16.38.18:456][928]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.09-16.38.18:474][928]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.09-16.38.18:475][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.09-16.38.18:475][928]LogHMD: Initializing OVRPlugin session
-[2017.12.09-16.38.18:509][928]PIE: New page: PIE session: FirstPersonExampleMap (Dec 9, 2017, 6:38:18 AM)
-[2017.12.09-16.38.18:509][928]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2017.12.09-16.38.18:546][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037060s)
-[2017.12.09-16.38.18:547][928]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.12.09-16.38.18:548][928]LogPlayLevel: PIE: World Init took: (0.001519s)
-[2017.12.09-16.38.18:548][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.039008s)
-[2017.12.09-16.38.18:584][928]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.09-16.38.18:596][928]LogInit: FAudioDevice initialized.
-[2017.12.09-16.38.18:631][928]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.09-16.38.18:634][928]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.12.09-11.38.18
-[2017.12.09-16.38.18:634][928]LogWorld: Bringing up level for play took: 0.002293
-[2017.12.09-16.38.18:636][928]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.645
-[2017.12.09-16.38.18:636][928]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.09-16.38.42:501][783]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.09-16.38.42:540][783]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.09-16.38.44:189][906]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.09-16.38.44:208][906]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.09-16.38.44:208][906]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.09-16.38.44:208][906]LogHMD: Initializing OVRPlugin session
-[2017.12.09-16.38.44:274][906]PIE: New page: PIE session: FirstPersonExampleMap (Dec 9, 2017, 6:38:44 AM)
-[2017.12.09-16.38.44:274][906]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2017.12.09-16.38.44:295][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020198s)
-[2017.12.09-16.38.44:295][906]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.12.09-16.38.44:296][906]LogPlayLevel: PIE: World Init took: (0.000881s)
-[2017.12.09-16.38.44:296][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021461s)
-[2017.12.09-16.38.44:326][906]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.09-16.38.44:337][906]LogInit: FAudioDevice initialized.
-[2017.12.09-16.38.44:370][906]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.12.09-16.38.44:372][906]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.12.09-11.38.44
-[2017.12.09-16.38.44:372][906]LogWorld: Bringing up level for play took: 0.001780
-[2017.12.09-16.38.44:373][906]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.093
-[2017.12.09-16.38.44:373][906]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.09-16.39.08:175][752]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.12.09-16.39.08:210][752]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.12.09-23.39.48:524][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.09-23.39.48:524][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.09-23.39.48:593][  0]LogInit: Computer: JEWBOX
+[2017.12.09-23.39.48:593][  0]LogInit: User: Joseph
+[2017.12.09-23.39.48:593][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.12.09-23.39.48:593][  0]LogInit: High frequency timer resolution =3.222658 MHz
+[2017.12.09-23.39.48:594][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.09-23.39.48:594][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.09-23.39.48:594][  0]LogMemory: Process Physical Memory: 280.29 MB used, 280.29 MB peak
+[2017.12.09-23.39.48:594][  0]LogMemory: Process Virtual Memory: 278.88 MB used, 278.88 MB peak
+[2017.12.09-23.39.48:594][  0]LogMemory: Physical Memory: 8124.88 MB used,  8154.51 MB free, 16279.39 MB total
+[2017.12.09-23.39.48:594][  0]LogMemory: Virtual Memory: 709.77 MB used,  8154.51 MB free, 134217728.00 MB total
+[2017.12.09-23.39.49:308][  0]LogInit: Using OS detected language (en-US).
+[2017.12.09-23.39.49:308][  0]LogInit: Using OS detected locale (en-CA).
+[2017.12.09-23.39.49:523][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.09-23.39.50:658][  0]LogInit: Setting process to per monitor DPI aware
+[2017.12.09-23.39.58:199][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.09-23.39.58:250][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2017.12.09-23.39.58:250][  0]LogD3D11RHI:       4060/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2017.12.09-23.39.58:252][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.09-23.39.58:252][  0]LogD3D11RHI:       0/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.09-23.39.58:252][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.09-23.39.58:262][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.09-23.39.58:262][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.09-23.39.58:262][  0]LogWindows: EnumDisplayDevices:
+[2017.12.09-23.39.58:262][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:0 D:1)
+[2017.12.09-23.39.58:263][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2017.12.09-23.39.58:263][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:1)
+[2017.12.09-23.39.58:263][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.12.09-23.39.58:263][  0]LogWindows:    4. 'LogMeIn Mirror Driver' (P:0 D:0)
+[2017.12.09-23.39.58:263][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.12.09-23.39.58:263][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2017.12.09-23.39.58:263][  0]LogD3D11RHI:   Driver Version: 388.59 (internal:23.21.13.8859, unified:388.59)
+[2017.12.09-23.39.58:263][  0]LogD3D11RHI:      Driver Date: 12-5-2017
+[2017.12.09-23.39.58:263][  0]LogRHI: Texture pool is 2842 MB (70% of 4060 MB)
+[2017.12.09-23.39.58:312][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.09-23.39.58:386][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.09-23.39.58:444][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Intermediate/Shaders/WorkingDirectory/20592/).
+[2017.12.09-23.39.58:444][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joseph/AppData/Local/Temp/UnrealShaderWorkingDir/BB4D5EAD43667EC6109712984122136E/'.
+[2017.12.09-23.39.58:445][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.09-23.40.02:819][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.09-23.40.02:897][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.09-23.40.02:964][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.09-23.40.03:032][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.09-23.40.03:117][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.09-23.40.03:178][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.09-23.40.03:233][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.09-23.40.03:304][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.09-23.40.03:360][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.09-23.40.03:418][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.09-23.40.03:491][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.09-23.40.03:552][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.09-23.40.03:607][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.09-23.40.03:668][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.09-23.40.03:786][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.09-23.40.03:786][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.09-23.40.03:861][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.09-23.40.03:900][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.09-23.40.04:158][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.09-23.40.04:196][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.09-23.40.04:251][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.09-23.40.04:316][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.09-23.40.04:369][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.09-23.40.04:483][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.09-23.40.04:483][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.09-23.40.05:949][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.09-23.40.06:428][  0]LogDerivedDataCache: Loaded boot cache 0.48s 78MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.09-23.40.06:428][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Joseph/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.12.09-23.40.06:428][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.09-23.40.06:428][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.09-23.40.06:428][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.09-23.40.06:429][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.09-23.40.06:466][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.09-23.40.06:479][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.09-23.40.06:495][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.09-23.40.06:495][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.09-23.40.06:526][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.09-23.40.06:526][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.09-23.40.15:406][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.09-23.40.16:201][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.09-23.40.16:242][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.09-23.40.16:242][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.09-23.40.16:242][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.09-23.40.16:242][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.09-23.40.16:242][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.09-23.40.16:319][  0]LogNetVersion: VRtest2 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4248922799)
+[2017.12.09-23.40.16:876][  0]LogAssetRegistry: FAssetRegistry took 0.0388 seconds to start up
+[2017.12.09-23.40.18:370][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.115527 seconds
+[2017.12.09-23.40.18:377][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.12.09-23.40.18:377][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2017.12.09-23.40.18:377][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.09-23.40.18:440][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.09-23.40.45:591][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.12.09-23.40.45:648][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.09-23.40.45:700][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.09-23.40.47:236][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.09-23.40.47:971][  0]SourceControl: Source control is disabled
+[2017.12.09-23.40.47:971][  0]SourceControl: Source control is disabled
+[2017.12.09-23.40.48:048][  0]SourceControl: Source control is disabled
+[2017.12.09-23.40.48:107][  0]SourceControl: Source control is disabled
+[2017.12.09-23.40.50:682][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.09-23.40.51:019][  0]LogOcInput: OculusInput pre-init called
+[2017.12.09-23.40.52:548][  0]LogEngine: Initializing Engine...
+[2017.12.09-23.40.52:551][  0]LogHMD: Oculus plugin initialized. Version: 4.18.1-3754814+++UE4+Release-4.18, OVRPlugin: 1.19.0
+[2017.12.09-23.40.53:211][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.09-23.40.53:211][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.09-23.40.53:368][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.09-23.40.53:412][  0]LogInit: XAudio2 using 'Headset Earphone (6- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-23.40.53:456][  0]LogInit: FAudioDevice initialized.
+[2017.12.09-23.40.53:600][  0]LogDerivedDataCache: Saved boot cache 0.14s 78MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.09-23.40.53:621][  0]LogInit: Texture streaming: Enabled
+[2017.12.09-23.40.53:742][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.09-23.40.53:751][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={108BF71D-418D-9DF6-7176-908A2E85FB76}
+[2017.12.09-23.40.53:919][  0]LogInit: Transaction tracking system initialized
+[2017.12.09-23.40.54:314][  0]BlueprintLog: New page: Editor Load
+[2017.12.09-23.40.55:386][  0]LocalizationService: Localization service is disabled
+[2017.12.09-23.40.56:869][  0]LogConsoleResponse: Display: 
+[2017.12.09-23.40.57:894][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.09-23.40.57:894][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.09-23.40.57:894][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.09-23.40.58:582][  0]LogFileCache: Scanning file cache for directory 'D:/Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/' took 0.04s
+[2017.12.09-23.41.00:218][  0]SourceControl: Source control is disabled
+[2017.12.09-23.41.00:447][  0]LogSlate: Took 0.049930 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.09-23.43.51:687][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.09-23.43.51:687][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.09-23.43.51:717][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.09-23.43.51:718][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.09-23.43.51:719][  0]Cmd: MAP LOAD FILE="../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.09-23.43.51:720][  0]LightingResults: New page: Lighting Build
+[2017.12.09-23.43.51:767][  0]MapCheck: New page: Map Check
+[2017.12.09-23.43.51:767][  0]LightingResults: New page: Lighting Build
+[2017.12.09-23.43.52:960][  0]LogLinker: Warning: Can't find file '/Game/Materials/SpaceSphere'
+[2017.12.09-23.43.52:961][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/SpaceSphere' while loading ../../../Engine/Content/EngineSky/SM_SkySphere.uasset.
+[2017.12.09-23.43.52:961][  0]LoadErrors: Error: /Engine/EngineSky/SM_SkySphere : Can't find file for asset. /Game/Materials/SpaceSphere
+[2017.12.09-23.43.52:961][  0]LogLinker: Warning: Can't find file '/Game/Materials/SpaceSphere'
+[2017.12.09-23.43.52:961][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/SpaceSphere' while loading ../../../Engine/Content/EngineSky/SM_SkySphere.uasset.
+[2017.12.09-23.43.52:961][  0]LoadErrors: Error: /Engine/EngineSky/SM_SkySphere : Can't find file for asset. /Game/Materials/SpaceSphere
+[2017.12.09-23.43.53:302][  0]LogLinker: Warning: Can't find file '/Game/Materials/SpaceSphere'
+[2017.12.09-23.43.53:302][  0]LoadErrors: Failed to load /Game/Materials/SpaceSphere.SpaceSphere Referenced by SM_SkySphere
+[2017.12.09-23.43.53:302][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/SpaceSphere' while loading NULL.
+[2017.12.09-23.43.53:302][  0]LoadErrors: Failed to load /Game/Materials/SpaceSphere.SpaceSphere Referenced by SM_SkySphere
+[2017.12.09-23.43.53:302][  0]LogLinker: Warning: Can't find file '/Game/Materials/SpaceSphere'
+[2017.12.09-23.43.53:302][  0]LoadErrors: Failed to load /Game/Materials/SpaceSphere.SpaceSphere Referenced by SM_SkySphere
+[2017.12.09-23.43.53:303][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/SpaceSphere' while loading NULL.
+[2017.12.09-23.43.53:303][  0]LoadErrors: Failed to load /Game/Materials/SpaceSphere.SpaceSphere Referenced by SM_SkySphere
+[2017.12.09-23.43.54:386][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.12.09-23.43.54:410][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.09-23.43.54:490][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.09-23.43.54:585][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 94.569ms to complete.
+[2017.12.09-23.43.54:585][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.865
+[2017.12.09-23.43.54:733][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_cb08_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_dd70_0///####STATCAT_Advanced####
+[2017.12.09-23.43.54:733][  0]ModoBridge: Starting Extension logic
+[2017.12.09-23.43.54:937][  0]LogCollectionManager: Loaded 0 collections in 0.018529 seconds
+[2017.12.09-23.43.55:049][  0]LogFileCache: Scanning file cache for directory 'D:/Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/Collections/' took 0.01s
+[2017.12.09-23.43.55:049][  0]LogFileCache: Scanning file cache for directory 'D:/Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/Developers/Joseph/Collections/' took 0.01s
+[2017.12.09-23.43.55:049][  0]LogFileCache: Scanning file cache for directory 'D:/Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/Collections/' took 0.01s
+[2017.12.09-23.43.55:049][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.09-23.43.55:062][  0]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2378 classes and 528 folders.
+[2017.12.09-23.43.55:134][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.12.09-23.43.57:141][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.12.09-23.43.57:201][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.12.09-23.43.57:252][  0]LogSlate: Took 0.030020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.09-23.43.57:271][  0]LogSlate: Took 0.012141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.09-23.43.57:582][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2017.12.09-23.43.57:712][  0]LogSlate: Took 0.010126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-23.43.57:944][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.12.09-23.43.57:944][  0]LogLoad: (Engine Initialization) Total time: 270.50 seconds
+[2017.12.09-23.43.57:944][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.09-23.43.57:944][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.09-23.43.58:304][  0]LogOcInput: OculusInput is initialized
+[2017.12.09-23.43.58:323][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.09-23.43.58:426][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2017.12.09-23.43.58:482][  2]LogAssetRegistry: Asset discovery search completed in 221.6404 seconds
+[2017.12.09-23.43.58:485][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.09-23.43.58:485][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000076 seconds (updated 0 objects)
+[2017.12.09-23.44.18:804][ 19]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.44.21:501][ 27]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.44.26:634][ 42]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.44.33:860][ 63]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.44.33:860][ 63]ModoBridge: Try to reconnect to server
+[2017.12.09-23.44.33:860][ 63]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.44.36:573][ 71]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.44.41:354][ 85]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.44.48:886][107]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.44.48:886][107]ModoBridge: Try to reconnect to server
+[2017.12.09-23.44.48:886][107]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.44.51:650][115]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.44.56:410][129]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.45.04:004][151]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.45.04:004][151]ModoBridge: Try to reconnect to server
+[2017.12.09-23.45.04:004][151]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.45.06:356][158]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.45.11:372][173]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.45.19:198][196]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.45.19:198][196]ModoBridge: Try to reconnect to server
+[2017.12.09-23.45.19:198][196]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.45.21:563][203]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.45.26:675][218]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.45.34:084][240]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.45.34:084][240]ModoBridge: Try to reconnect to server
+[2017.12.09-23.45.34:084][240]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.45.36:520][247]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.45.41:392][261]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.45.48:995][283]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.45.48:995][283]ModoBridge: Try to reconnect to server
+[2017.12.09-23.45.48:995][283]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.45.51:435][290]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.45.56:677][305]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.46.04:218][338]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.46.04:218][338]ModoBridge: Try to reconnect to server
+[2017.12.09-23.46.04:218][338]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.46.06:437][498]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.46.11:052][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (base floor)
+[2017.12.09-23.46.11:464][775]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.46.18:947][372]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.46.18:947][372]ModoBridge: Try to reconnect to server
+[2017.12.09-23.46.18:947][372]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.46.21:460][575]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.46.26:459][958]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.46.26:806][976]Cmd: TRANSACTION UNDO
+[2017.12.09-23.46.26:806][976]LogEditorTransaction: Undo Delete selection
+[2017.12.09-23.46.26:832][976]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Engamaneener.StaticMeshComponent0) Component already registered.
+[2017.12.09-23.46.26:864][976]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-23.46.31:145][150]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.09-23.46.31:148][150]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.09-23.46.31:148][150]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.09-23.46.31:148][150]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.09-23.46.31:149][150]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.09-23.46.31:149][150]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.09-23.46.31:149][150]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.09-23.46.31:149][150]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.09-23.46.31:149][150]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.09-23.46.31:149][150]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.09-23.46.31:163][150]LogEditorActor: Deleted 10 Actors (0.024 secs)
+[2017.12.09-23.46.33:962][409]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.46.33:962][409]ModoBridge: Try to reconnect to server
+[2017.12.09-23.46.33:971][410]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.46.36:475][604]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.46.41:500][ 36]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.46.48:984][558]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.46.48:984][558]ModoBridge: Try to reconnect to server
+[2017.12.09-23.46.48:984][558]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.46.49:062][563]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-23.46.49:382][563]LogSavePackage: Save=253.32ms
+[2017.12.09-23.46.49:382][563]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/FirstPersonExampleMapE01239E64182C5E7688EB8AFDBA9CB89.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.12.09-23.46.49:387][563]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.12.09-23.46.49:989][563]LogSavePackage: Save=531.91ms
+[2017.12.09-23.46.49:989][563]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/FirstPersonExampleMap_BuiltDataD81DA5554A635C5F127265B260A31589.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.12.09-23.46.49:990][563]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.12.09-23.46.51:772][570]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.46.56:490][963]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.47.03:997][682]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.47.03:997][682]ModoBridge: Try to reconnect to server
+[2017.12.09-23.47.04:006][683]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.47.06:513][907]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.47.11:532][382]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.47.19:018][ 69]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.47.19:018][ 69]ModoBridge: Try to reconnect to server
+[2017.12.09-23.47.19:018][ 69]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.47.21:002][210]LogSavePackage: Save=218.15ms
+[2017.12.09-23.47.21:002][210]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/FirstPersonExampleMapFBA33DC7442CCC66B65EBC9A1D0EEB37.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.12.09-23.47.21:005][210]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.12.09-23.47.21:348][210]LogSavePackage: Save=290.73ms
+[2017.12.09-23.47.21:348][210]LogSavePackage: Moving '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Saved/FirstPersonExampleMap_BuiltData8890BFE84737B7F55A5B7FAC4764E9F9.tmp' to '../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.12.09-23.47.21:349][210]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.12.09-23.47.21:522][223]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.47.26:528][687]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.47.34:317][821]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.47.34:317][821]ModoBridge: Try to reconnect to server
+[2017.12.09-23.47.34:317][821]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.47.36:678][828]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.47.41:355][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (base floor)
+[2017.12.09-23.47.41:554][120]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.47.43:276][279]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (base floor)
+[2017.12.09-23.47.47:570][459]LogSubstanceLiveLink: Creating New Painter Project at "D:/Work/Joey Joram Mech Game/Spaceship Game Joey Stuff/UE/vrtest2/VRtest2/.sp/Game/Meshes/test_Ship_2_mesh022.spp"
+[2017.12.09-23.47.49:311][555]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.47.49:311][555]ModoBridge: Try to reconnect to server
+[2017.12.09-23.47.49:311][555]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.47.51:668][562]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.47.56:791][577]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.48.04:091][598]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.48.04:091][598]ModoBridge: Try to reconnect to server
+[2017.12.09-23.48.04:091][598]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.48.06:792][606]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.48.11:668][620]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.48.19:367][642]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.48.19:367][642]ModoBridge: Try to reconnect to server
+[2017.12.09-23.48.19:367][642]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.48.21:802][649]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.48.26:669][663]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.48.34:441][685]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.48.34:442][685]ModoBridge: Try to reconnect to server
+[2017.12.09-23.48.34:442][685]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.48.36:925][692]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.48.41:839][706]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.48.49:405][728]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.48.49:405][728]ModoBridge: Try to reconnect to server
+[2017.12.09-23.48.49:405][728]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.48.51:820][735]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.48.56:908][750]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.49.04:480][772]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.49.04:480][772]ModoBridge: Try to reconnect to server
+[2017.12.09-23.49.04:480][772]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.49.06:889][779]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.49.11:697][793]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.49.19:509][ 35]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.49.19:509][ 35]ModoBridge: Try to reconnect to server
+[2017.12.09-23.49.19:509][ 35]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.49.21:878][ 42]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.49.26:768][ 56]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.49.34:377][ 78]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.49.34:377][ 78]ModoBridge: Try to reconnect to server
+[2017.12.09-23.49.34:377][ 78]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.49.36:799][ 85]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.49.41:943][100]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.49.49:509][122]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.49.49:509][122]ModoBridge: Try to reconnect to server
+[2017.12.09-23.49.49:509][122]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.49.51:887][129]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.49.56:760][143]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.50.04:370][165]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.50.04:370][165]ModoBridge: Try to reconnect to server
+[2017.12.09-23.50.04:370][165]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.50.06:786][172]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.50.11:974][187]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.50.19:567][209]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.50.19:567][209]ModoBridge: Try to reconnect to server
+[2017.12.09-23.50.19:567][209]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.50.21:976][216]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.50.26:818][230]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.50.34:420][252]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.50.34:420][252]ModoBridge: Try to reconnect to server
+[2017.12.09-23.50.34:420][252]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.50.36:846][259]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.50.42:044][274]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.50.49:553][296]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.50.49:553][296]ModoBridge: Try to reconnect to server
+[2017.12.09-23.50.49:553][296]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.50.51:956][303]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.50.57:144][318]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.51.04:360][339]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.51.04:360][339]ModoBridge: Try to reconnect to server
+[2017.12.09-23.51.04:360][339]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.51.07:114][347]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.51.11:966][361]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.51.19:669][383]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.51.19:669][383]ModoBridge: Try to reconnect to server
+[2017.12.09-23.51.19:669][383]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.51.22:075][390]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.51.26:896][404]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.51.34:548][426]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.51.34:548][426]ModoBridge: Try to reconnect to server
+[2017.12.09-23.51.34:548][426]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.51.36:967][433]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.51.42:150][448]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.51.49:413][469]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.51.49:413][469]ModoBridge: Try to reconnect to server
+[2017.12.09-23.51.49:413][469]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.51.52:157][477]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.51.56:975][491]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.52.04:468][513]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.52.04:468][513]ModoBridge: Try to reconnect to server
+[2017.12.09-23.52.04:468][513]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.52.07:201][521]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.52.11:930][535]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.52.19:692][558]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.52.19:692][558]ModoBridge: Try to reconnect to server
+[2017.12.09-23.52.19:692][558]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.52.22:058][565]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.52.27:240][580]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.52.34:570][601]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.52.34:570][601]ModoBridge: Try to reconnect to server
+[2017.12.09-23.52.34:570][601]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.52.36:979][608]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.52.42:266][623]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.52.49:578][644]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.52.49:578][644]ModoBridge: Try to reconnect to server
+[2017.12.09-23.52.49:578][644]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.52.52:018][651]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.52.57:284][666]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.53.04:528][687]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.53.04:528][687]ModoBridge: Try to reconnect to server
+[2017.12.09-23.53.04:528][687]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.53.07:320][695]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.53.12:130][793]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.53.19:687][815]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.53.19:687][815]ModoBridge: Try to reconnect to server
+[2017.12.09-23.53.19:687][815]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.53.22:133][822]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.53.27:167][850]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.53.34:511][892]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.53.34:511][892]ModoBridge: Try to reconnect to server
+[2017.12.09-23.53.34:524][893]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.53.37:305][901]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.53.42:207][915]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.53.49:870][937]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.53.49:870][937]ModoBridge: Try to reconnect to server
+[2017.12.09-23.53.49:870][937]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.53.52:321][944]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.53.57:187][958]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.54.04:810][ 30]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.54.04:810][ 30]ModoBridge: Try to reconnect to server
+[2017.12.09-23.54.04:810][ 30]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.54.07:336][ 41]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.54.12:395][ 87]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.54.19:601][115]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.54.19:601][115]ModoBridge: Try to reconnect to server
+[2017.12.09-23.54.19:601][115]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.54.22:318][123]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.54.27:183][137]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.54.34:829][159]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.54.34:829][159]ModoBridge: Try to reconnect to server
+[2017.12.09-23.54.34:829][159]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.54.37:250][166]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.54.42:184][180]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.54.49:896][202]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.54.49:896][202]ModoBridge: Try to reconnect to server
+[2017.12.09-23.54.49:896][202]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.54.52:334][209]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.54.57:168][223]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.55.04:755][245]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.55.04:756][245]ModoBridge: Try to reconnect to server
+[2017.12.09-23.55.04:756][245]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.55.07:195][252]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.55.12:358][267]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.55.19:992][289]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.55.19:992][289]ModoBridge: Try to reconnect to server
+[2017.12.09-23.55.19:993][289]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.55.22:423][296]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.55.27:338][310]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.55.34:930][332]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.55.34:930][332]ModoBridge: Try to reconnect to server
+[2017.12.09-23.55.34:930][332]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.55.37:332][339]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.55.42:510][354]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.55.49:810][375]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.55.49:810][375]ModoBridge: Try to reconnect to server
+[2017.12.09-23.55.49:810][375]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.55.52:498][383]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.55.57:347][397]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.56.04:955][419]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.56.04:955][419]ModoBridge: Try to reconnect to server
+[2017.12.09-23.56.04:955][419]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.56.07:382][426]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.56.12:543][441]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.56.19:744][462]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.56.19:745][462]ModoBridge: Try to reconnect to server
+[2017.12.09-23.56.19:745][462]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.56.22:541][470]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.56.27:394][484]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.56.34:779][505]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.56.34:779][505]ModoBridge: Try to reconnect to server
+[2017.12.09-23.56.34:779][505]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.56.37:467][513]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.56.42:578][528]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.56.49:908][549]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.56.49:908][549]ModoBridge: Try to reconnect to server
+[2017.12.09-23.56.49:908][549]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.56.52:316][556]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.56.57:402][571]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.57.04:982][593]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.57.04:982][593]ModoBridge: Try to reconnect to server
+[2017.12.09-23.57.04:982][593]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.57.07:421][600]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.57.12:485][615]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.57.20:042][637]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.57.20:042][637]ModoBridge: Try to reconnect to server
+[2017.12.09-23.57.20:042][637]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.57.22:457][644]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.57.27:624][659]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.57.34:924][680]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.57.34:924][680]ModoBridge: Try to reconnect to server
+[2017.12.09-23.57.34:924][680]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.57.37:372][687]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.57.42:524][702]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.57.50:090][724]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.57.50:090][724]ModoBridge: Try to reconnect to server
+[2017.12.09-23.57.50:090][724]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.57.52:511][731]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.57.57:700][746]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.58.04:956][767]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.58.04:956][767]ModoBridge: Try to reconnect to server
+[2017.12.09-23.58.04:956][767]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.58.07:734][775]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.58.12:494][789]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.58.20:106][811]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.58.20:106][811]ModoBridge: Try to reconnect to server
+[2017.12.09-23.58.20:106][811]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.58.22:523][818]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.58.27:649][833]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.58.34:961][854]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.58.34:961][854]ModoBridge: Try to reconnect to server
+[2017.12.09-23.58.34:961][854]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.58.37:452][861]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.58.42:590][876]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.58.50:201][898]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.58.50:201][898]ModoBridge: Try to reconnect to server
+[2017.12.09-23.58.50:201][898]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.58.52:560][905]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.58.57:466][919]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.59.05:142][941]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.59.05:142][941]ModoBridge: Try to reconnect to server
+[2017.12.09-23.59.05:142][941]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.59.07:586][948]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.59.12:770][963]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.59.20:067][984]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.59.20:067][984]ModoBridge: Try to reconnect to server
+[2017.12.09-23.59.20:067][984]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.59.22:781][992]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.59.27:638][  6]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.59.35:332][ 28]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.59.35:332][ 28]ModoBridge: Try to reconnect to server
+[2017.12.09-23.59.35:332][ 28]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.59.37:802][ 35]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.59.42:631][ 49]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.09-23.59.50:287][ 71]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.09-23.59.50:287][ 71]ModoBridge: Try to reconnect to server
+[2017.12.09-23.59.50:287][ 71]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.09-23.59.52:633][ 78]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.09-23.59.57:871][ 93]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.10-00.00.05:228][114]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.10-00.00.05:228][114]ModoBridge: Try to reconnect to server
+[2017.12.10-00.00.05:228][114]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.10-00.00.07:620][121]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.10-00.00.12:805][136]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.10-00.00.20:090][157]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.10-00.00.20:090][157]ModoBridge: Try to reconnect to server
+[2017.12.10-00.00.20:090][157]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.10-00.00.22:841][165]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.10-00.00.27:723][179]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.10-00.00.35:237][201]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.10-00.00.35:237][201]ModoBridge: Try to reconnect to server
+[2017.12.10-00.00.35:237][201]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.10-00.00.37:617][208]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.10-00.00.42:770][223]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.10-00.00.50:260][245]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.10-00.00.50:260][245]ModoBridge: Try to reconnect to server
+[2017.12.10-00.00.50:260][245]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.10-00.00.52:670][252]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.10-00.00.57:836][267]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.10-00.01.05:376][289]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.10-00.01.05:376][289]ModoBridge: Try to reconnect to server
+[2017.12.10-00.01.05:376][289]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.10-00.01.07:845][296]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.10-00.01.12:667][310]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.10-00.01.20:396][332]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.10-00.01.20:396][332]ModoBridge: Try to reconnect to server
+[2017.12.10-00.01.20:396][332]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.10-00.01.22:761][339]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.10-00.01.27:988][354]ModoBridge: Request time out[5000], has the server stopped?
+[2017.12.10-00.01.35:294][375]ModoBridge: Request time out[7500], has the server stopped?
+[2017.12.10-00.01.35:294][375]ModoBridge: Try to reconnect to server
+[2017.12.10-00.01.35:294][375]ModoBridge: Successfully connected to tcp://127.0.0.1:12000.
+[2017.12.10-00.01.37:721][382]ModoBridge: Request time out[2500], has the server stopped?
+[2017.12.10-00.01.42:988][397]ModoBridge: Request time out[5000], has the server stopped?
